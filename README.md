@@ -1,20 +1,17 @@
-# Security Hygeine for Non-Technical Individuals
 
-## Table of Contents
-- [Security Hygeine for Non-Technical Individuals](#security-hygeine-for-non-technical-individuals)
-  - [Table of Contents](#table-of-contents)
-    - [Purpose](#purpose)
-    - [Usability vs Security](#usability-vs-security)
-  - [Password Managers](#password-managers)
-    - [Overview](#overview)
-    - [Types of Password Managers: Browser vs Cloud](#types-of-password-managers-browser-vs-cloud)
-    - [Password Manager Examples](#password-manager-examples)
-  - [URL Spoofing](#url-spoofing)
-  - [Secure Web Browsing](#secure-web-browsing)
-  - [Two-Factor Authentication](#two-factor-authentication)
-  - [Risks of Public Wifi](#risks-of-public-wifi)
-  - [Software Updates](#software-updates)
-  - [Periodic Backups](#periodic-backups)
+**Table of Contents**
+  - [Purpose](#purpose)
+  - [Usability vs Security](#usability-vs-security)
+- [Password Managers](#password-managers)
+  - [Overview](#overview)
+  - [Types of Password Managers: Browser vs Cloud](#types-of-password-managers-browser-vs-cloud)
+  - [Password Manager Examples](#password-manager-examples)
+- [URL Spoofing](#url-spoofing)
+- [Secure Web Browsing](#secure-web-browsing)
+- [Two-Factor Authentication](#two-factor-authentication)
+- [Risks of Public Wifi](#risks-of-public-wifi)
+- [Software Updates](#software-updates)
+- [Periodic Backups](#periodic-backups)
 
 ### Purpose
 
@@ -56,7 +53,9 @@ TODO
 TODO
 
 ## Software Updates
-TODO
+*Time: ~3 minutes*
+
+We've all seen the notifications on our phones, computers, browsers, etc. that tell us to constantly update our software. It's so easy to think it's an unimportant hassle. However, updates are quite important. Commonly, updates are used to fix security flaws. If those flaws are not fixed, it leaves your devices at risk for malicious parties to exploit your devices and information. So, when you see the next notification for an update, make sure to do so. 
 
 ## Periodic Backups
 TODO
