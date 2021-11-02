@@ -21,7 +21,7 @@ If COVID has taught the world anything, it’s that the people you are connected
 A common sentiment in technical security is that the more secure something is, the harder it is to use. The same goes for the opposite: the easier something is to use, the less secure it is. While this is not applicable across the board, one will likely encounter this concept when reading through these recommended practices. The goal is for one to determine what their own sweet spot of ease-of-use and security. This answer will vary by person. This information intends to give a few possible solutions to the reader. 
 
 ## Password Managers
-*Time: 5 min to 1 hour* 
+*Time to implement: 5 min to 1 hour* 
 ### Overview
 
 Password managers are extremely useful because they can keep track of sensitive information instead of the user trying to remember every username, password, security questions, etc from the hundreds of accounts the world expects us to have nowadays. In addition, they can generate secure passwords, look up to see if that password/hacked, and notify you when the password needs to be changed. Many password managers can be used over multiple devices as well as between family members.
@@ -30,6 +30,8 @@ Password managers are extremely useful because they can keep track of sensitive 
 There are many different types of password managers. However only two will be discussed--browser-based and cloud-based. If you use Google's browser, Chrome, or Safari, you are probably familiar with a browser password manager. Chrome and Safari typically ask the user whether they want to save their passwords or for the browser to create a password for the user. The advantage of using this type of password manager is the ease of use. If you use the same browser across devices with the same account on all of them, then it's quick and easy to use. The disadvantes of this type of password manager are that they typically never log the user out, internet is required and no advanced features included. If a device is stolen, all passwords (and most likely web history) are compromised. If you use the Chrome passowrd manager for your bank information, the theif could look at the user's browser activity, see the bank website was visited, and then automatically login with the browser password manager.
 
 A cloud-based password is recommended because it is more secure than a browser-based manager, it can easily sync across multiple devices, store different types of information from login usernames/passwords, driver liscense information, healthcare information, misc. notes, vehicle information, addresses, and much more. These managers scan for when users' passwords have been compromised and recommends users to update passwords on a regular basis. Internet is only needed to sync across devices. Other than that, these managers do not need internet. 
+
+TODO: add bit about how there's a learning curve. Once that's achieved, then ease-of-use rather than "usability" greatly increases. 
 
 ### Password Manager Examples
 [Google Chrome](https://passwords.google.com)\
@@ -41,7 +43,11 @@ There are directions on the links shared above that show how to install both of 
 Note: It takes a lot of time to remember every account you use and add that account to a password manager. It takes weeks/months to transfer all accounts into password managers. Start with important and/or vulnerable accounts such as financial and healthcare information.
 
 ## URL Spoofing
-TODO
+Most, if not all people have seen a URL. A URL is the web address that directs users to a specific website or document. Example: *www.google.com*. There are a few types of URL spoofing. The first type of URL spoofing is when malicious actors use a URL that looks like a common or realistic URL that you would normally be accustomed to clicking on and going to. Example: *www.gooogle.com*. If you look close at the previous URL, there is an extra 'o' added to 'google'. In this case, it will not direct you to google, but to another website instead. Many times, these URLs are misspelled by a letter or number that if the user is not paying attention, they will not catch. 
+
+By redirecting users to different sites, actors could be stealing your personal information, accesssing your devices, accessing the networks you are on, or install malware on those devices. 
+
+I was discussing the creation of this document with a colleague the other day and this collegue related a personal story of spoofing that had recently happened to her. She has a venmo account where here transactions with friends and family are public. For privacy reasons, I'll give her the username of `janedoe151`. A malicious actor decided to create a new account with the username `janedoe251` and used the original account's avatar as the fake account's avatar. The fake account then preceded to request a few hundred dollars from groceries from her mom and her friends. She recieved a text from her mom saying, "Sent payment!" and another from a friend saying "Why do you need money for groceries?" It was only then that my colleague realized another account was impersonating her and her mother had sent money to a stranger. Her friend identified the strange behavior and verified with my colleague before sending payment, which is the correct move. If they had all originally looked a bit closer then they could've realized that this username was fake.
 
 ## Secure Web Browsing
 TODO
